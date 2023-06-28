@@ -12,6 +12,6 @@
                       ariaHasPopup="Dialog" />
             </additionalContent>
           </IllustratedMessage>
-            <content />
+            <content>Hallo dies ist eine Änderung. </content>
     </Page>
 </mvc:View>
