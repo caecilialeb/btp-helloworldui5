@@ -1,0 +1,17 @@
+<mvc:View controllerName="sap.btp.helloworldui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+<IllustratedMessage id="ilm1" enableVerticalResponsiveness="true" illustrationType="sapIllus-SuccessBalloon">
+            <additionalContent>
+              <Button id="but1" 
+                          text="Du bist super!"
+                      class="sapUiSmallMarginBottom"
+                      press=".onAlertMessageBoxPress"
+                      width="280px"
+                      ariaHasPopup="Dialog" />
+            </additionalContent>
+          </IllustratedMessage>
+            <content />
+    </Page>
+</mvc:View>
